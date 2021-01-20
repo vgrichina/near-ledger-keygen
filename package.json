@@ -1,0 +1,19 @@
+{
+  "engines": {
+    "node": "12"
+  },
+  "dependencies": {
+    "near-ledger-js": "^0.1.2",
+    "parcel-bundler": "^1.12.4",
+    "@ledgerhq/hw-transport-u2f": "5.34.0",
+    "serve": "^11.3.2",
+    "regenerator-runtime": "^0.13.7",
+    "bs58": "^4.0.1"
+  },
+  "scripts": {
+    "start": "PARCEL_AUTOINSTALL=false NODE_ENV=development parcel build index.html && serve dist/"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
